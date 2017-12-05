@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: zipkin-client-two
+  zipkin:
+    base-url: http://172.18.10.34:9411

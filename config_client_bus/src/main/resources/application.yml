@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-client-bus
+  rabbitmq:
+    host: 192.168.80.129
+    port: 5672
+eureka:
+  instance:
+    hostname: 172.18.10.34
+  client:
+    service-url:
+      defaultZone: http://172.18.10.34:8761/eureka/
