@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: turbine-server
+security:
+  basic:
+    enabled: false
+eureka:
+  instance:
+    hostname: 172.18.10.34
+  client:
+    service-url:
+      defaultZone: http://172.18.10.34:8761/eureka/
+turbine:
+  aggregator:
+    cluster-config: default
+  app-config: feign-service
+  cluster-name-expression: new String("default")
